@@ -1,0 +1,2 @@
+"""Rule-based news analysis."""
+

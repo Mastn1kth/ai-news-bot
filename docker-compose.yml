@@ -1,0 +1,10 @@
+services:
+  ai-news-bot:
+    build: .
+    env_file:
+      - .env
+    volumes:
+      - ./data:/app/data
+      - ./config:/app/config:ro
+    command: ["python", "-m", "app.main", "run"]
+

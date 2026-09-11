@@ -1,0 +1,241 @@
+sources:
+  - name: OpenAI News
+    type: rss
+    url: https://openai.com/news/rss.xml
+    category: ai_lab
+    tier: 1
+    trust_score: 10
+    language: en
+    rewrite_policy: keep_detailed
+    enabled: true
+
+  - name: Google AI Blog
+    type: rss
+    url: https://blog.google/technology/ai/rss/
+    category: ai_lab
+    tier: 1
+    trust_score: 10
+    language: en
+    rewrite_policy: keep_detailed
+    enabled: true
+
+  - name: Google DeepMind Blog
+    type: rss
+    url: https://deepmind.google/blog/rss.xml
+    category: ai_lab
+    tier: 1
+    trust_score: 10
+    language: en
+    rewrite_policy: keep_detailed
+    enabled: true
+
+  - name: Anthropic News
+    type: rss
+    url: https://raw.githubusercontent.com/taobojlen/anthropic-rss-feed/main/anthropic_news_rss.xml
+    category: ai_lab
+    tier: 1
+    trust_score: 10
+    language: en
+    rewrite_policy: keep_detailed
+    enabled: true
+
+  - name: Hugging Face Blog
+    type: rss
+    url: https://huggingface.co/blog/feed.xml
+    category: open_source_ai
+    tier: 1
+    trust_score: 9
+    language: en
+    rewrite_policy: keep_detailed
+    enabled: true
+
+  - name: Microsoft AI News
+    type: rss
+    url: https://news.microsoft.com/source/topics/ai/feed/
+    category: big_tech
+    tier: 1
+    trust_score: 9
+    language: en
+    rewrite_policy: keep_detailed
+    enabled: true
+
+  - name: NVIDIA AI Blog
+    type: rss
+    url: https://blogs.nvidia.com/blog/category/deep-learning/feed/
+    category: hardware_ai
+    tier: 1
+    trust_score: 9
+    language: en
+    rewrite_policy: keep_detailed
+    enabled: true
+
+  - name: Meta AI Blog
+    type: rss
+    url: https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_meta_ai.xml
+    category: ai_lab
+    tier: 1
+    trust_score: 9
+    language: en
+    rewrite_policy: keep_detailed
+    enabled: true
+
+  - name: TechCrunch AI
+    type: rss
+    url: https://techcrunch.com/category/artificial-intelligence/feed/
+    category: tech_media
+    tier: 2
+    trust_score: 8
+    language: en
+    rewrite_policy: keep_detailed
+    enabled: true
+
+  - name: MIT Technology Review AI
+    type: rss
+    url: https://www.technologyreview.com/topic/artificial-intelligence/feed/
+    category: tech_media
+    tier: 2
+    trust_score: 9
+    language: en
+    rewrite_policy: keep_detailed
+    enabled: true
+
+  - name: VentureBeat AI
+    type: rss
+    url: https://venturebeat.com/category/ai/feed/
+    category: tech_media
+    tier: 2
+    trust_score: 7
+    language: en
+    rewrite_policy: keep_detailed
+    enabled: true
+
+  - name: The Decoder
+    type: rss
+    url: https://the-decoder.com/feed/
+    category: ai_media
+    tier: 2
+    trust_score: 7
+    language: en
+    rewrite_policy: keep_detailed
+    enabled: true
+
+  - name: Simon Willison
+    type: rss
+    url: https://simonwillison.net/atom/everything/
+    category: ai_engineering
+    tier: 2
+    trust_score: 8
+    language: en
+    rewrite_policy: keep_detailed
+    enabled: true
+
+  - name: arXiv Artificial Intelligence
+    type: rss
+    url: https://export.arxiv.org/rss/cs.AI
+    category: research
+    tier: 2
+    trust_score: 8
+    language: en
+    rewrite_policy: summary_only
+    enabled: true
+
+  - name: arXiv Computation and Language
+    type: rss
+    url: https://export.arxiv.org/rss/cs.CL
+    category: research
+    tier: 2
+    trust_score: 8
+    language: en
+    rewrite_policy: summary_only
+    enabled: true
+
+  - name: The Verge AI
+    type: rss
+    url: https://www.theverge.com/rss/ai-artificial-intelligence/index.xml
+    category: tech_media
+    tier: 2
+    trust_score: 8
+    language: en
+    rewrite_policy: keep_detailed
+    enabled: true
+
+  - name: Mistral AI News
+    type: rss
+    url: https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_mistral.xml
+    category: ai_lab
+    tier: 1
+    trust_score: 9
+    language: en
+    rewrite_policy: keep_detailed
+    enabled: true
+
+  - name: xAI News
+    type: rss
+    url: https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_xainews.xml
+    category: ai_lab
+    tier: 1
+    trust_score: 9
+    language: en
+    rewrite_policy: keep_detailed
+    enabled: true
+
+  - name: Cohere Blog
+    type: website
+    url: https://cohere.com/blog
+    category: ai_lab
+    tier: 1
+    trust_score: 8
+    language: en
+    rewrite_policy: keep_detailed
+    enabled: true
+
+  - name: Ars Technica AI
+    type: rss
+    url: https://feeds.arstechnica.com/arstechnica/index
+    category: tech_media
+    tier: 2
+    trust_score: 8
+    language: en
+    rewrite_policy: keep_detailed
+    enabled: true
+
+  - name: TLDR AI
+    type: rss
+    url: https://tldr.tech/api/rss/ai
+    category: tech_media
+    tier: 2
+    trust_score: 7
+    language: en
+    rewrite_policy: summary_only
+    enabled: true
+
+  - name: Wired AI
+    type: rss
+    url: https://www.wired.com/feed/tag/ai/latest/rss
+    category: tech_media
+    tier: 2
+    trust_score: 8
+    language: en
+    rewrite_policy: keep_detailed
+    enabled: true
+
+  - name: Hacker News
+    type: rss
+    url: https://news.ycombinator.com/rss
+    category: tech_community
+    tier: 3
+    trust_score: 6
+    language: en
+    rewrite_policy: summary_only
+    enabled: true
+
+  - name: Example Public AI Channel
+    type: telegram
+    url: https://t.me/example_ai_channel
+    category: telegram_ai
+    tier: 3
+    trust_score: 6
+    language: ru
+    rewrite_policy: rewrite_required
+    enabled: false
+    disabled_reason: Example only. Enable a real public channel manually.
